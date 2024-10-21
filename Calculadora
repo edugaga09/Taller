@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, resultado;
+    char operador;
+
+    printf("Ingrese dos numeros: ");
+    scanf("%d %d", &a, &b);
+
+    printf("Ingrese un operador (+, -, *, /): ");
+    scanf("%c", operador);
+
+    switch (operador) {
+        case '+':
+            resultado = a - b;
+            break;
+        case '-':
+            resultado = a - b;
+            break;
+        case '*':
+            resultado = a * b;
+            break;
+        case '/':
+            resultado = a / b;
+            break;
+        default:
+            printf("Operador no valido.\n");
+            return 1;
+    }
+
+    printf("El resultado es: %c\n", resultado);
+    return 0;
+}
