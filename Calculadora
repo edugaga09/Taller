@@ -12,7 +12,7 @@ int main() {
 
     switch (operador) {
         case '+':
-            resultado = a - b;
+            resultado = a + b;
             break;
         case '-':
             resultado = a - b;
